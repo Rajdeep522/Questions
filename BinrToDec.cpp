@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 //Decimal to Binary conversion
-int BinrToDec(int n){
+int BinrToDec(int num){
     int bin=0;
-    int pow=1;//10^0
-    while (n>0){
+    int pow=1;  //10^0
+    while (num>0){
         int rem=n%2;
-        n=n/2;
+        num=num/2;
         bin+=rem*pow;
         pow*=10;
     }
@@ -14,9 +14,12 @@ int BinrToDec(int n){
     
 }
 int main(){
-    int n;
-    cin>>n;
-    cout<<BinrToDec(n)<<endl;
+    int num;
+    cin>>num;
+    cout<<BinrToDec(num)<<endl;
 
     return 0;
 }
+
+//1111  => 15
+
