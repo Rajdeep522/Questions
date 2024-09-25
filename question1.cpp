@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-// Reverse a array for user input 
+
+// Reverse a array for user input.
+
 void reverse(int arr[],int n){
     for (int i = 0; i < (n/2); i++){
         int firstval=arr[i];
