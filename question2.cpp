@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-// A small calculator for getting integer value only
+
+// A small calculator for getting integer value only.
+
 int main(){
     int a,b;
     char ch;
