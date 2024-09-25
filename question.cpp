@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//Prime number list by the maximum and minimum range using user input
+//Prime number list by the maximum and minimum range using user input.
 
 
 void prime(int min,int max){
