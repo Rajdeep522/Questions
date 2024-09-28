@@ -20,3 +20,4 @@ int main(){
     cout<<BnrToDec(n)<<endl;
     return 0;
 }
+
