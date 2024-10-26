@@ -10,7 +10,10 @@ int main(){
         if (arr[i] > greatest){
             greatest=arr[i];
         }
-        // greatest=max(arr[i],greatest);
+
+
+        
+        // greatest=max(arr[i],greatest);  <-- another logic
         
     }
     cout<<"Greatest is : "<<greatest<<endl;
